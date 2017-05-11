@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/nav.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/foundation.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/content.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="../css/footer.css">
   </head>
   <body>
     <!--#Begin Nav-->
@@ -24,11 +24,11 @@
   <div id="topbar-responsive" class="topbar-responsive-links">
     <div class="top-bar-right">
       <ul class="menu simple vertical medium-horizontal">
-        <li><a href="#">Home</a></li>
-        <li><a href="prices/index.html">Prices</a></li>
-        <li><a href="bookings/index.html">Bookings</a></li>
-        <li><a href="about/index.html">About</a></li>
-        <li><a href="contact/index.html">Contact</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="Prices/index.html">Prices</a></li>
+        <li><a href="Quotes/index.html">Quotes</a></li>
+        <li><a href="About/index.html">About</a></li>
+        <li><a href="#">Contact</a></li>
         <li>
           <button type="button" class="button hollow topbar-responsive-button">Categories</button>
         </li>
@@ -38,73 +38,58 @@
 </nav>
 <!--#End Nav-->
 
-<!--#Begin Header-->
-<div class="fullscreen-image-slider">
-  <div class="orbit" role="region" aria-label="FullScreen Pictures" data-orbit>
-    <ul class="orbit-container">
-      <button class="orbit-previous">
-        <span class="show-for-sr">Previous Slide</span>
-        <span class="nav fa fa-chevron-left fa-3x"></span>
-      </button>
-      <button class="orbit-next">
-        <span class="show-for-sr">Next Slide</span>
-        <span class="nav fa fa-chevron-right fa-3x"></span>
-      </button>
-      <li class="is-active orbit-slide">
-        <img class="orbit-image" src="images\brushes purple.jpg" alt="Space">
-        <figcaption class="orbit-caption">
-          <h1>KAE KOLLXTION</h1>
-        </figcaption>
-      </li>
-      <li class="orbit-slide">
-        <img class="orbit-image" src="http://d26j9nk90wf3d1.cloudfront.net/wp-content/uploads/makeup1.jpg" alt="Space">
-        <figcaption class="orbit-caption">
-          <h1>Makeup</h1>
-        </figcaption>
-      </li>
-      <li class="orbit-slide">
-        <img class="orbit-image" src="images\fasf.jpg" alt="Space">
-        <figcaption class="orbit-caption">
-          <h1>Eyebrows</h1>
-        </figcaption>
-      </li>
-    </ul>
+<!--#Begin content-->
+<div class="login-box">
+  <div class="row collapse expanded">
+    <div class="small-12 medium-6 column small-order-2 medium-order-1">
+      <div class="login-box-form-section">
+        <h1 class="login-box-title">Sign up</h1>
+        <input class="login-box-input" type="text" name="username" placeholder="Username" />
+        <input class="login-box-input" type="email" name="email" placeholder="E-mail" />
+        <input class="login-box-input" type="password" name="password" placeholder="Password" />
+        <input class="login-box-input" type="password" name="password2" placeholder="Retype password" />
+        <input class="login-box-submit-button" type="submit" name="signup_submit" value="Sign me up" />
+      </div>
+      <div class="or">OR</div>
+    </div>
+    <div class="small-12 medium-6 column small-order-1 medium-order-2 login-box-social-section">
+      <div class="login-box-social-section-inner">
+        <span class="login-box-social-headline">Sign in with<br />your social network</span>
+        <a class="login-box-social-button-facebook">Log in with facebook</a>
+        <a class="login-box-social-button-twitter">Log in with Twitter</a>
+        <a class="login-box-social-button-google">Log in with Google+</a>
+      </div>
+    </div>
   </div>
 </div>
 
 
 
-<!--#End Header-->
-
-<!--#Begin Content-->
-
-
-<!--#End Content-->
-
-<!--#Begin Footer-->
+<!--#End content-->
+<!--Begin Footer-->
 <footer class="responsive-blog-footer">
   <div class="row">
     <div class="medium-8 columns small-order-2 medium-order-1 about-container">
       <div class="row">
         <div class="hide-for-small-only medium-4 columns about-section">
-          <img src="images\unnamed.png">
+          <img src="../images/Big head.jpg">
         </div>
         <div class="medium-8 columns about-section">
-          <h4> About Me</h4>
-          <p>Kiyannah, the artist behind the Kae Kollxtion</p>
+          <h4>Maria Reittie</h4>
+          <p>JOIN US TODAY</p>
           <a href=""></a>
         </div>
       </div>
     </div>
     <div class="small-12 medium-4 columns small-order-1 medium-order-2 mailing-container">
-      <h4 class="mailing-list">Join my mailing list</h4>
+      <h4 class="mailing-list">Join my mailing list to recieve notfications.</h4>
       <input type="text" placeholder="Email Address">
       <a class="button expanded subscribe-button" href="#">Subscribe Now</a>
     </div>
   </div>
 
   <div class="row columns flex-container align-justify">
-     <p> All rights reserved</p>
+     <p> All rights reserved @ Kae</p>
     <div class="up-arrow">
       <a href="#top"><i class="fa fa-chevron-circlec-up" aria-hidden="true"></i></a>
     </div>
@@ -112,9 +97,7 @@
 </footer>
 
 
-
-
-<!--#End Footer-->
+<!--End footer-->
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
